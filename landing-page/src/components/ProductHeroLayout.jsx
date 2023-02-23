@@ -1,5 +1,4 @@
 import * as React from 'react';
-import PropTypes from 'prop-types';
 import { styled } from '@mui/material/styles';
 import arrowDown from '../images/down-arrow.png'
 import Container from '@mui/material/Container';
@@ -10,11 +9,9 @@ const ProductHeroLayoutRoot = styled('section')(({ theme }) => ({
   position: 'relative',
   display: 'flex',
   alignItems: 'center',
-  [theme.breakpoints.up('sm')]: {
     height: '80vh',
     minHeight: 500,
     maxHeight: 1300,
-  },
 }));
 
 const Background = styled(Box)({
@@ -59,8 +56,7 @@ function ProductHeroLayout(props) {
         <Box
           component="img"
           src={arrowDown}
-          height="16"
-          width="12"
+          height="40px"
           alt="arrow down"
           sx={{ position: 'absolute', bottom: 32 }}
         />
@@ -68,16 +64,5 @@ function ProductHeroLayout(props) {
     </ProductHeroLayoutRoot>
   );
 }
-
-ProductHeroLayout.propTypes = {
-  children: PropTypes.node,
-  sxBackground: PropTypes.oneOfType([
-    PropTypes.arrayOf(
-      PropTypes.oneOfType([PropTypes.func, PropTypes.object, PropTypes.bool]),
-    ),
-    PropTypes.func,
-    PropTypes.object,
-  ]),
-};
 
 export default ProductHeroLayout;

@@ -19,7 +19,7 @@ export default function ProductHero() {
         alt="increase priority"
       />
       <Typography color="inherit" align="center" variant="h2" marked="center">
-      Commercial Landscaping Services
+      Commercial Landscaping
       </Typography>
       <Typography
         color="inherit"
@@ -34,10 +34,10 @@ export default function ProductHero() {
         variant="contained"
         size="large"
         component="a"
-        href=""
+        href="/premium-themes/onepirate/sign-up/"
         sx={{ minWidth: 200 }}
       >
-        Get Started
+        Register
       </Button>
       <Typography variant="body2" color="inherit" sx={{ mt: 2 }}>
         Discover the experience
