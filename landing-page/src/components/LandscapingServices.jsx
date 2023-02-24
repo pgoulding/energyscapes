@@ -1,5 +1,7 @@
 import React from 'react'
 import {Box, Typography, Grid, Card} from '@mui/material'
+import greenwaves from '../images/green-wavy-bg.png'
+
 const LandscapingServices = () =>{
 
     const servicesTables = [
@@ -28,22 +30,34 @@ const LandscapingServices = () =>{
 
 
     return (
-        <Box>
+        <Box
+            sx={{
+                backgroundSize:'cover',
+                backgroundRepeat: 'no-repeat',
+                backgroundImage:`url(${greenwaves})`,
+                padding:'10px',
+                minHeight:'500px' 
+            }}
+        >
             <Typography>
             Energyscapes collaborates with our clients to create tailored landscape management and plant installation and maintenance solutions that cater to the unique requirements of each property.
             By actively listening to our clients, we ensure that all their objectives are met while staying within their budget and expectations. 
             Our success is driven by our focus on professionalism and meticulous planning, which enables us to unlock the full value potential of each property.
             </Typography>
-            <Box>
+            <Box
+               
+            >
                 <Grid
                     container
                     spacing={2}
+                    sx={{mt:5, mb:5}}
                 >
                     {
                         servicesTables.map((item, i) => {
                             return (<Grid 
                             item
-                            xs={4}
+                            xs={12}
+                            sm={6}
                             key={i+1}
                             >
                                 <Card>
