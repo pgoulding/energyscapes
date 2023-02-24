@@ -30,17 +30,16 @@ export default function ProductHero() {
         Landscaping and Plant Maintenance made easy with us.
       </Typography>
       <Button
-        color="secondary"
+        color="success"
         variant="contained"
         size="large"
         component="a"
-        href="/premium-themes/onepirate/sign-up/"
         sx={{ minWidth: 200 }}
       >
-        Register
+        Get Started
       </Button>
-      <Typography variant="body2" color="inherit" sx={{ mt: 2 }}>
-        Discover the experience
+      <Typography variant="subtitle2" color="inherit" sx={{ mt: 2, fontStyle:'italic' }}>
+        Discover the difference experience makes in your landscaping needs
       </Typography>
     </ProductHeroLayout>
   );

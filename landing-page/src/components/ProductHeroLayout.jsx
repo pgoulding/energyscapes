@@ -27,6 +27,11 @@ const Background = styled(Box)({
 
 function ProductHeroLayout(props) {
   const { sxBackground, children } = props;
+  
+  const scrollToContent = () => {
+    const content = document.getElementById('content');
+    content.scrollIntoView({ behavior: 'smooth' });
+  };
 
   return (
     <ProductHeroLayoutRoot>
@@ -58,6 +63,7 @@ function ProductHeroLayout(props) {
           src={arrowDown}
           height="40px"
           alt="arrow down"
+          onClick={scrollToContent}
           sx={{ position: 'absolute', bottom: 32 }}
         />
       </Container>
