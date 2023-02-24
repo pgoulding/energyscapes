@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bb3ccbc6.css",
+    "main.js": "/static/js/main.a81d8cdf.js",
+    "static/js/787.991e66e3.chunk.js": "/static/js/787.991e66e3.chunk.js",
+    "static/media/flowers-bush.png": "/static/media/flowers-bush.8b21b513d7fa28c60426.png",
+    "static/media/green-wavy-bg.png": "/static/media/green-wavy-bg.ee5de4f81b7ff199734d.png",
+    "static/media/energyscapes-logo-lowres.png": "/static/media/energyscapes-logo-lowres.e99ebb98ff76a4390d28.png",
+    "static/media/DoubleTreeLogo.png": "/static/media/DoubleTreeLogo.006572a088946307bbbe.png",
+    "static/media/marriott-logo.png": "/static/media/marriott-logo.710d07ae1c7ad60d2ccb.png",
+    "static/media/brown-palace-white-logo.png": "/static/media/brown-palace-white-logo.5b411540e15c2ea2a194.png",
+    "static/media/gables-logo.png": "/static/media/gables-logo.be7331bd80def2886765.png",
+    "static/media/Jacquard-Hotel-Logo.jpeg": "/static/media/Jacquard-Hotel-Logo.557e45caccd769a6caa6.jpeg",
+    "static/media/ritz-carlton-white-logo.png": "/static/media/ritz-carlton-white-logo.f71e53ed9587f8d0afe5.png",
+    "static/media/lpc-denver-white-logo.png": "/static/media/lpc-denver-white-logo.3a6a7aec81836468d4f3.png",
+    "static/media/halcyon-white-logo.png": "/static/media/halcyon-white-logo.05daed2ad352a516e92b.png",
+    "index.html": "/index.html",
+    "main.bb3ccbc6.css.map": "/static/css/main.bb3ccbc6.css.map",
+    "main.a81d8cdf.js.map": "/static/js/main.a81d8cdf.js.map",
+    "787.991e66e3.chunk.js.map": "/static/js/787.991e66e3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb3ccbc6.css",
+    "static/js/main.a81d8cdf.js"
+  ]
+}
